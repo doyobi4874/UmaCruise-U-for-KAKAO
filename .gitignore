@@ -35,9 +35,10 @@ _ReSharper*/
 /.vscode/
 /simstring-1.0/
 /tmp/
+/inven/
 
 /opencv/
-/tesseract/
+# /tesseract/
 /vcpkg*/
 /win32-darkmode-master/
 
