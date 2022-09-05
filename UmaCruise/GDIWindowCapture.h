@@ -2,7 +2,7 @@
 
 #include <memory>
 
-#include <wtl\atlgdi.h>
+#include <atlgdi.h>
 
 #include "Utility\Logger.h"
 #include "Utility\GdiplusUtil.h"

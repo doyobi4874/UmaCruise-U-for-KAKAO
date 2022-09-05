@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 #include <unordered_map>
-#include <wtl\atlmisc.h>
+#include <atlmisc.h>
 #include "Utility\GdiplusUtil.h"
 
 class UmaTextRecognizer

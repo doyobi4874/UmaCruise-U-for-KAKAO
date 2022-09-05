@@ -80,7 +80,7 @@ def toJson(data):
 # range(1,33) 2부터 시작?
 # 2022/08/27 33+1 스마트팔콘
 def Player():
-    for r in range(33,34) :
+    for r in range(1,3) :
         #deckBuilder > section.container > dl.item-list-type1.umamusume-list > dd > div > ul > li:nth-child(33) > span > span
         # //*[@id="deckBuilder"]/section[2]/dl[1]/dd/div/ul/li[1]/span/span
         #deckBuilder > section.container > dl.item-list-type1.umamusume-list > dd > div > ul > li:nth-child(6) > span > span
@@ -227,8 +227,8 @@ def Player():
 #subname 사라짐? 오페라오 subname ! 확인필요
 
 def Support():
-    # child(119) 1,120
-    for rs in range(1,120) :
+    # child(123) 1,124  22/9/5
+    for rs in range(1,124) :
         #deckBuilder > section.container > div > dl.support-card-list > dd > div.scroll-wrap > ul > li:nth-child(1)
         #deckBuilder > section.container > div > dl.support-card-list > dd > div.scroll-wrap > ul > li:nth-child(9)
         #deckBuilder > section.container > div > dl.support-card-list > dd > div.scroll-wrap > ul > li:nth-child(119)
@@ -391,7 +391,7 @@ def Races():
 
         # rank[grade]
 
-# Player()  
+Player()  
 Support()
 # Races()   소스 수정필요(전반 후반으로 셀 색상 바뀜)
 toJson(data)

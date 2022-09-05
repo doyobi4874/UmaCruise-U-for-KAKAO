@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 
-#include <wtl\atlctrls.h>	// RichEditCtrl
+#include <atlctrls.h>	// RichEditCtrl
 #include "MainDlg.h"
 
 #include "Utility\CommonUtility.h"

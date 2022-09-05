@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "ConfigDlg.h"
 
-#include <wtl\atldlgs.h>
+#include <atldlgs.h>
 
 #include "Utility\json.hpp"
 #include "Utility\CommonUtility.h"

@@ -1,8 +1,8 @@
 #pragma once
 #include "Utility\json.hpp"
 #include <atlstr.h>
-#include <wtl\atlapp.h>
-#include <wtl\atlgdi.h>
+#include <atlapp.h>
+#include <atlgdi.h>
 
 struct I18N
 {
